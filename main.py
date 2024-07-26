@@ -15,11 +15,11 @@ def get_commands():
         "close",
         "exit",
         "all",
-        "add [ім'я] [телефон]",
-        "change [ім'я] [старий телефон] [новий телефон]",
-        "phone [ім'я]",
-        "add-birthday [ім'я] [дата народження]",
-        "show-birthday [ім'я]",
+        "add [name] [phone]",
+        "change [name] [old phone] [new phone]",
+        "phone [name]",
+        "add-birthday [name] [birth date]",
+        "show-birthday [name]",
         "birthdays"
     ]
     text = "Command: \n" 
