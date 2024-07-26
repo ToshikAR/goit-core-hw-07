@@ -29,7 +29,6 @@ def add_contact(args, book: AddressBook) -> str:
     if len(args) != 2: raise ValueError("Enter the argument for the command.")
     name, phone, *_ = args
     record = book.find(name)
-    print(type(record))
     message = "Contact updated."
     if record is None:
         record = Record(name)
